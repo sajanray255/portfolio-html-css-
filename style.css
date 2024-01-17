@@ -1,0 +1,402 @@
+body{
+	margin: 0px;
+/*	background-color: aliceblue;*/
+	    background: linear-gradient(264deg,whitesmoke,lightblue, skyblue,white);
+
+}
+/*body head*/
+
+#body-header{
+	height: 61vh;
+	background-image: url(https://wallpaperaccess.com/full/521099.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.95;
+
+}
+/*horizontal list*/
+.horizontal-list{
+	padding-left: 0px;
+	margin:0px;
+	list-style: none;
+}
+
+
+.horizontal-list li{
+	display: inline-block;
+	 margin-left: 15px;
+     margin-top: 10px;	
+     
+}
+.horizontal-list li a{
+	font-family: sans-serif;
+	 font-size: 22px;
+	 font-weight: 600;
+	 color: lightsteelblue;
+     text-decoration: none;
+     transition: color 0.5s,border-bottom 2s,font-size 0.3s;
+}
+.horizontal-list li a:hover{
+	color: grey;
+/*	font-size: 29px;*/
+	border-bottom: 1px solid white;
+}
+.text-center{
+	text-align: center;
+}
+
+#my-name{
+	text-decoration: none;
+	margin-top: 9.3rem;
+    font-size: 7.5vh;
+    color: steelblue;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-right: 35px;
+    font-family: none;
+}
+/* social icons*/
+ 
+.social-icon{
+	 
+	height: auto;
+    width: fit-content;
+    margin-top: -11vh;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid white;
+    border-left: none;
+    border-radius: 22px;
+     position: fixed; 
+     top: 150px;
+    background-color: lightslategrey;
+    box-shadow: 2px 5px 5px 2px white;
+ 
+	 transition: all 0.9sec;
+}
+
+.social-icon i{
+	font-size: 2.5vw;
+	padding:4px ;
+	border-radius: 50%;
+
+} 
+.social-icon i:hover{
+	box-shadow: 0px 0px 6px 4px mintcream;
+
+}
+ 
+
+ 
+/*about*/
+#about{
+	height: auto;
+	width: 100%;
+	 
+	 
+	
+	
+}
+#mypic{
+	height: 15rem;
+	width:14rem;
+	margin:auto;
+	margin-top: -11vh;
+	position: relative;
+}
+#mypic img{
+	height: 80%;
+	width: 80%;
+	border: 2px hidden grey;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px;
+}
+#myabout{
+
+	 height: 10rem;
+	 width: 59rem;
+	margin:auto;
+ 
+	
+	 
+	
+
+}
+#myabout p{
+	font-size: 2vw;
+	font-family: math;
+    font-weight: inherit;
+	margin-left: 20px;
+    margin-right: 20px;
+	 
+}
+
+section{
+	width: 100%;
+	 height:fit-content;
+/*    min-height: 40vh;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 25px 0px;
+	margin: 0px auto;
+
+}
+section:nth-child(2n){
+	background-color: white;
+}
+ 
+/* commmon for all sections*/
+.section-heading{
+	font-weight: 500;
+	margin: auto auto;
+	width: auto;
+	padding: 10px;
+}
+.section-heading span{
+	font-size: 37px;
+	color:#2857a4;
+	margin-top: 5px;
+}
+.flex-display{
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+/*skills*/
+.skill-content{
+	height: 5vh;
+	width: 25vh;
+	border: 0px solid grey;
+	border-radius: 25px;
+	background-color: lightgray;
+	margin: 20px 45px;
+	 
+
+}
+.skill-percent{
+	height: inherit;
+	border-radius: 25px 0px 0px 25px;
+	 
+
+}
+.skill-name{
+	font-size: 3.5vh;
+	font-family: monospace;
+	color: white;
+	font-weight: 600;
+	padding-left: 5px;
+}
+
+/*projects*/
+
+ .project-content{
+	height: 33vh;
+	width: 38vh;	 
+	padding: 10px 10px;
+	position: relative;
+
+
+}
+
+ .project-content img{
+ 	  height: 100%;
+ 	  width: 100%;
+ 	  border: 1px solid white;
+	border-radius: 10px;
+ }
+ .project-details{
+/* 	these 3 line to make child division cover its parent division */
+     position: absolute;
+    top: 0;
+    left: 0;
+    font-family: cursive;
+    font-size: 3vh;
+    height: 100%;
+    width: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.5s ;
+    border-radius: 10px;
+ }
+
+.project-details:hover {
+    background-color: lightslategrey;
+    opacity: 0.8;
+    color: black;
+    font-weight: bold;
+}
+
+/* education */
+.timeline{
+	position: relative;
+	border:2px solid white ;
+	border-radius: 20px;
+	display: block;
+	background-color: aliceblue;
+	text-align: center;
+	width: 75%;
+	
+	padding-top: 20px 
+}
+.ed{
+	position: relative;
+	margin: 5px;
+	border:2px solid rgb(255, 255, 255);
+	border-radius: 20px;
+	 
+	width: 40%;
+	left: 5%;
+	min-height: 150px;	
+	text-align: right; 
+}
+.ssc::before{
+	background: url(pmnh.png) no-repeat 0 0;
+}
+.hsc::before{
+	background: url(ascollege.jpg) no-repeat 0 0;
+}
+.bsc::before{
+	background: url(pu.jpg) no-repeat 0 0;
+}
+.mca::before{
+	background: url(nit.png) no-repeat 0 0;
+}
+.degree::before{
+	position: absolute;
+	content: "";
+	float: left;
+	width: 35vh;
+	height: 15vh;
+	left: -1vw;
+	/* margin-top: -20px; */
+	
+	background-size: 30%;
+	border-radius:30px;
+
+}
+.mca::before{
+	border-radius: 0%;
+}
+
+
+ 
+.ed:nth-child(2n){
+	left: 54%;
+}
+.ed:nth-child(2n+1)::after{
+	font-family: 'FontAwesome';
+	content: "\f559";
+	position: relative;
+    bottom: 6vh;
+    color: rgb(12 146 12);
+    font-size: 160%;
+     right: -4.05vw; 
+     z-index: 1;
+ 
+}
+.ed:nth-child(2n)::after{
+	font-family: 'FontAwesome';
+	content: "\f559";
+	position: relative;
+    bottom: 7vh;
+    color: rgb(12 146 12);
+    font-size: 160%;
+    right: 32.3vw;
+	z-index: 1;
+ 
+} 
+#ed-divider{
+	position: absolute;
+	 border-width: 2px;
+	 border-style: dotted;
+	 border-color: darkgray;
+	left: 50%;
+	height: 80%;
+	width: 0;
+	top: 65px;
+}
+
+ #edlogo{
+	position: sticky;
+	top: 30%;  
+	z-index: 2;} 
+
+ #rocket{
+	margin-left: -12px;
+	margin-top: -5px;
+	font-size: 1.8rem;
+	color: dimgray;
+	height: 75%; 
+} 
+
+/* @media screen and (max-width:600px) */
+
+  
+   
+
+ 
+
+
+/*contact*/
+#contact{
+	/* background: linear-gradient(0deg,rgb(131, 131, 144),rgb(191, 191, 213),rgb(99, 93, 99)); */
+
+}
+input{
+	display: block;
+	margin: 10px 0px;
+	height: 5vh;
+	width: 20vw;
+	border: none;
+	background:inherit;
+	border-bottom: 2px solid whitesmoke;
+	font-weight: bold;
+}
+#msg{
+ 
+ height: 12vh;
+ margin-top: 5px;
+
+
+}
+#send
+{
+	width: 18vh;
+	margin: 20px auto;
+	border: 3px solid ghostwhite;
+	color: whitesmoke;
+
+}
+.s_icon{
+	height: 4vw;
+	width: fit-content;
+	align-items: baseline;
+
+}
+.s_icon i{
+	height: 5vw;
+	width: 5vw;
+	color: grey;
+	 font-size: 2.5vw;
+
+}
+
+  
+
+ 
+
+
+
+
+
+
+
+ 
